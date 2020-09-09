@@ -1,5 +1,7 @@
 ## What was discussed in an interview with EPAM. (september 2020)
 
+![](epam_intro.png)
+
 #### Что нового появилось в Java 8?
 <details><summary>Ответ</summary>
 
