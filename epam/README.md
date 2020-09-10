@@ -176,4 +176,46 @@ ___
 </details>
 
 
+### Как устроена иерархия коллекций в Java? Что значит Checked и Uncheked?
+<details><summary>Ответ</summary>
 
+___
+
+    В разработке...
+</details>
+
+
+### Чем отличается ArrayList от LinkedList? Сравните операции вставки в начало коллекции. Time complexity в лучшем и худшем случаях?
+<details><summary>Ответ</summary>
+
+___
+
+    В разработке...
+</details>
+
+
+### Опишите, как происходит операция вставки элемента в HashMap.
+<details><summary>Ответ</summary>
+
+___
+
+    В разработке...
+</details>
+
+
+### Как осуществляется разрешение коллизий в HashMap?
+<details><summary>Ответ</summary>
+
+___
+
+    В разработке...
+</details>
+
+
+### Что изменилось в HashMap в Java 8?
+<details><summary>Ответ</summary>
+
+___
+
+    В разработке...
+</details>
