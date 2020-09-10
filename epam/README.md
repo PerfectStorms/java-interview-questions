@@ -130,6 +130,9 @@ ___
 
 
 ### Решите задачу, используя Stream.
+<details><summary>Условие</summary>
+
+___
 
 Имеется класс User:
 ```java
@@ -143,7 +146,7 @@ public class User {
 Реализуйте метод
 ```java
 public List<String> getUserDetail(List<User> users, int age){
-    // todo...
+    // solution
 }
 ```
 по следующим критериям:
@@ -152,6 +155,7 @@ public List<String> getUserDetail(List<User> users, int age){
 * map to String like firstName + lastName
 * order by alphabet
 * return List of String
+</details>
 
 <details><summary>Ответ</summary>
 
