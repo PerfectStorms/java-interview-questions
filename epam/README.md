@@ -168,7 +168,7 @@ public List<String> getUserDetail(List<User> users, int age){
 * return List of String
 </details>
 
-<details><summary>Ответ</summary>
+<details><summary>Решение</summary>
 
 ___
 
