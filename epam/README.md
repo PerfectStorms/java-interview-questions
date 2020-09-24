@@ -220,7 +220,15 @@ public List<String> getUserDetail(List<User> users, int age){
 
 ___
 
-    В разработке...
+```java
+    public static List<String> getUserDetail(List<User> users, int age) {
+            return users.stream()
+                    .filter((User u) -> u.age >= age)
+                    .map((User u) -> u.firstName + " " + u.lastName)
+                    .sorted()
+                    .collect(Collectors.toList());
+    }
+```
 </details>
 
 
