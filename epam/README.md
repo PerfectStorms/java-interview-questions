@@ -1,4 +1,4 @@
-# What was discussed in an interview with EPAM. (september 2020)
+# Полный перечень вопросов, обсуждаемых на собеседовании в EPAM. (сентябрь 2020)
 
 ![](epam_intro.png)
 
