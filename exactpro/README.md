@@ -78,7 +78,6 @@ ___
 * int size();
 * E get(int index);
 * void remove(int index);
-</details>
 
 ```java
 public interface Buffer<E> {
@@ -89,6 +88,7 @@ public interface Buffer<E> {
 }
 ```
 Наша интерфейс и реализующий его класс обязаны быть обобщенными, чтобы удобно было работать с любыми типами классов.
+</details>
 
 
 ### №3. Singleton
@@ -103,5 +103,27 @@ public interface Buffer<E> {
 
 ___
 
-    В разработке...
+Чтобы реализовать задачу на примитивном уровне, достаточно применить широко известный паттерн **Singleton**:
+```java
+public class TestClass {
+    private static TestClass instance;
+
+    public static TestClass getInstance() {
+        if (instance == null) {
+            instance = new TestClass();
+        }
+        return instance;
+    }   
+    
+    private TestClass() {
+        throw new AssertionError();
+    }   
+}
+``` 
+Где единственный экземпляр нашего класса хранится в статической внутренней переменной, и при вызове **getInstance()** 
+проверяется, была ли эта переменная привязана к нашему классу. Конструктор же делаем приватным, чтобы обезопасить себя
+от вызова ненужных инстансов, более того для убедительности, что инстанс не будет вызван через рефлексию - пробрасываем
+**AssertionError** при попытке взлома.
+
+Но...
 </details>
